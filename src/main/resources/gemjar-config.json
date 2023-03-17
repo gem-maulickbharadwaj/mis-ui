@@ -1,0 +1,29 @@
+{
+  "environment": "beta",
+  "project_name": "MIS",
+  "report_name": "MIS_Report",
+  "sub_id": "test_id",
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "jewel_user1": "shubham.kumar",
+  "jewel_bridge_token1": "259351c4-1137-4377-b56f-5f2ac3e0db301675253783077",
+  "glueCode": "com.qa.mis.stepdefinition",
+  "feature": "src/main/resources/features",
+  "email_report": null,
+  "email_to": "",
+  "email_cc": "",
+  "dev": {
+    "browserName": "firefox",
+    "launchUrl": "url",
+    "browserTimeout": 100
+  },
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://mymis.geminisolutions.com",
+    "browserTimeout": 100
+  },
+  "beta": {
+    "browserName": "chrome",
+    "launchUrl": "https://mymis.geminisolutions.com",
+    "browserTimeout": 100
+  }
+}
